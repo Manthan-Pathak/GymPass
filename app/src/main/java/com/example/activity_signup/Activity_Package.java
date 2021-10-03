@@ -2,18 +2,13 @@ package com.example.activity_signup;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.ImageView;
 
-public class activity_Bmi_Calc extends AppCompatActivity {
+public class Activity_Package extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bmi_calc);
-
+        setContentView(R.layout.activity_package);
     }
-
 }

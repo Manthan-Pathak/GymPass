@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragment_workout">
+    tools:context=".Activity_Trainer">
 
-    <!-- TODO: Update blank fragment layout -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -20,8 +19,8 @@
             <com.google.android.material.appbar.AppBarLayout
                 android:id="@+id/appBarLayout"
                 android:layout_width="match_parent"
-                android:layout_height="190dp"
-                android:background="@mipmap/workout_banner">
+                android:layout_height="150dp"
+                android:background="@drawable/a1_grad">
 
                 <TextView
                     android:id="@+id/mtoolbar_title1"
@@ -30,17 +29,9 @@
                     android:layout_marginTop="50dp"
                     android:layout_marginLeft="@dimen/text_20"
                     android:fontFamily="@font/roboto_black"
-                    android:text="Your Workout Plan"
+                    android:text="Our Expert Trainers"
                     android:textColor="@color/white"
-                    android:textSize="20sp" />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/text_20"
-                    android:fontFamily="@font/roboto_black"
-                    android:text="Start Now!"
-                    android:textColor="@color/white"
-                    android:textSize="15dp"/>
+                    android:textSize="25sp" />
 
 
             </com.google.android.material.appbar.AppBarLayout>
@@ -63,7 +54,7 @@
                     android:textAlignment="center"
                     android:layout_marginTop="10dp"
                     android:textColor="@color/grey_calendar"
-                    android:text="Recovery time after each excercise 30"
+                    android:text="All Trainers"
                     android:layout_height="wrap_content"/>
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -84,4 +75,4 @@
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-</FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
